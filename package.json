@@ -1,0 +1,17 @@
+{
+  "name": "gettext-merge",
+  "version": "0.1.1",
+  "description": "Merge .pot with .po ",
+  "main": "./lib/run.js",
+  "author": "Bruno Bertolini",
+  "license": "MIT",  
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },  
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gettext-parser": "^1.1.2",
+    "yargs": "^4.1.0"
+  }
+}  
